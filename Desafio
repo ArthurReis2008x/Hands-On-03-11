@@ -1,0 +1,27 @@
+int[] vitorias = {0, 0};
+
+
+
+
+if (vida[0][0] == 0 && vida[0][1] == 0 &&
+    vida[0][2] == 0) {
+
+    System.out.println("\nJOGADOR 2 VENCEU!");
+    vitorias[1]++;
+
+} else {
+
+    System.out.println("\nJOGADOR 1 VENCEU!");
+    vitorias[0]++;
+}
+
+System.out.println("\n================================");
+System.out.println("          PLACAR");
+System.out.println("================================");
+
+System.out.println("Jogador 1: " + vitorias[0] + " vitorias");
+System.out.println("Jogador 2: " + vitorias[1] + " vitorias");
+
+System.out.println("================================");
+
+batalhaTerminada = true;
